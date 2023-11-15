@@ -1,0 +1,62 @@
+body{
+    background-color: #FFEED9;
+}
+
+#h1-heading {
+text-align: center;
+font-family: cursive;
+color: #435585;
+}
+
+#level-title{
+    text-align: center;
+    font-family: cursive;
+    color: #435585;
+}
+
+.box{
+    
+    border: 5px solid black;
+    border-radius: 25%;
+    width: 150px;
+    height: 150px;
+    margin: 25px;
+}
+
+.boxes{
+
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.linebreak{
+    width: 100%;
+}
+
+.b1{
+    background-color: #363062;
+}
+
+.b2{
+    background-color: #435585;
+}
+
+.b3{
+    background-color: #818FB4;
+}
+
+.b4{
+    background-color: #F5E8C7;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+
+.game-over{
+background-color: red;
+}
